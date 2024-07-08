@@ -4,7 +4,6 @@ import torch
 from transformers import  AutoTokenizer,AutoModelForCausalLM,AutoConfig
 
 
-# os.environ['CUDA_VISIBLE_DEVICES'] = "0,5,6"
 def chat(model_path,message,temperature):
 
 
